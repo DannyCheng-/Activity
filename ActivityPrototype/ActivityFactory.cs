@@ -26,7 +26,7 @@ namespace ActivityPrototype
 
 	public class ActivityDefinition
 	{
-		public ActivityDefinition(string activityName, string typeName)
+		internal ActivityDefinition(string activityName, string typeName)
 		{
 			ActivityName = activityName;
 			TypeName = typeName;
