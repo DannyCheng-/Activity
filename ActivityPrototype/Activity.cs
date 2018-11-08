@@ -22,6 +22,8 @@ namespace ActivityPrototype
 
 		public string TypeName { get; set; }
 
+		public string Subtype { get; set; }
+
 		private Stopwatch stopWatch;
 
 		public TimeSpan Duration { get; private set; }
