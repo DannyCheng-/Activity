@@ -13,6 +13,8 @@ namespace ActivityPrototype
 		{
 			ActivityName = activityName;
 			TypeName = typeName;
+
+			Console.WriteLine($"Activity {ActivityName}:{TypeName} started.");
 			stopWatch = Stopwatch.StartNew();
 		}
 

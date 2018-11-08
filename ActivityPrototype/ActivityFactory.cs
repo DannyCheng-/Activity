@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ActivityPrototype
 {
-	public static class ActivityFactory
+	public static class Activities
 	{
 		public static class API
 		{
